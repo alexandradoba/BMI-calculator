@@ -1,0 +1,37 @@
+body {
+    background-image: url("bmi.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    padding: 30px;
+    width: 30%;
+    background-color: lightblue;
+    text-align: center;
+    opacity: 0.95;
+    border-radius: 20px;
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#btn {
+    border-radius: 20px;
+    background-color: peachpuff;
+    width: 30%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+#result {
+    color: teal;
+}
